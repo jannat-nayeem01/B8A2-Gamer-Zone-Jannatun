@@ -33,11 +33,20 @@ font-weight: 800;
 color: #534C64;
 font-size: 20px;
 font-weight: 500;
-text-transform: lowercase;
+}
+.text-type-400{
+color: #534C64;
+font-size: 18px;
+font-weight: 400;
 }
 
+.text-type-700{
+color: #534C64;
+font-size: 24px;
+font-weight: 700;
+}
 /*Header*/
-header{
+.goat-container{
     margin: 0 100px;
 }
 .btn-icon{
@@ -97,16 +106,109 @@ margin-top: -20px;
 }
 .first-goat{
  padding-bottom: 150px;
- padding-left: 70px;
+ padding-left: 30px;
 }
 .first-goat h2,h3,ul,button{
     margin-bottom: 20px;
 }
-.second-goat{
-    
-}
 .second-goat img{
     max-width: 500px;
     height: 100%;
-} 
+}
+/*Game Container*/
+.gamer-section{
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+}
+
+.gamer-container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    margin: 0 100px;
+}
+    .gamer-image img{
+        max-width: 600px;
+    }
+    .gamer-content{
+        text-align: right;
+    }
+    .gamer-title{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+    }
 /*Responsive styles*/
+
+@media screen and (max-width: 576px) {
+    .nav2 ul,.nav-container,.gamer-container{
+        flex-direction: column;
+    }
+    .nav2 li{
+        padding-bottom: 20px;
+    }
+
+    .nav1,.nav2{
+        text-align: center;
+    }
+    .goat-container{
+        flex-direction: column-reverse;
+        margin: 0 30px;
+    }
+    .first-goat{
+        padding-bottom: 30px;
+    }
+    .gamer-container{
+        margin: 0 30px;
+        padding-top: 0px;
+    }
+    .gamer-image img{
+        max-width: 400px;
+    }
+    .gamer-content{
+        text-align: center;
+    }
+   
+    .second-goat img{
+        max-width: 350px;
+    }
+    .second-goat{
+        align-items: center;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width:992px) {
+    .nav2 ul,.nav-container,.gamer-container{
+        flex-direction: column;
+    }
+    .nav2 li{
+        padding-bottom: 20px;
+    }
+
+    .nav1,.nav2{
+        text-align: center;
+    }
+    .goat-container{
+        flex-direction: column-reverse;
+        margin: 0 70px;
+    }
+    .first-goat{
+        padding-bottom: 30px;
+    }
+    .gamer-container{
+        margin: 0 70px;
+        padding-top: 0px;
+    }
+    .gamer-image img{
+        max-width: 550px;
+    }
+    .gamer-content{
+        text-align: center;
+    }
+    .second-goat img{
+        max-width: 500px;
+    }
+    .second-goat{
+        align-items: center;
+    }
+}
