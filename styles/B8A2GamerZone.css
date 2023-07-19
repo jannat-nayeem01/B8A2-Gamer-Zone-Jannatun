@@ -146,7 +146,7 @@ background-clip: text;
     margin: 0 100px;
     margin-top: 80px;
 }
-.vedio-text{
+.video-text{
     text-align: center;
     margin-bottom: 40px;
 }
@@ -165,8 +165,25 @@ background-clip: text;
 /*Responsive styles*/
 
 @media screen and (max-width: 576px) {
-    .nav2 ul,.nav-container,.gamer-container{
+    .nav2 ul,.nav-container,.gamer-container,.video-content{
         flex-direction: column;
+    }
+    .nav-btn{
+        min-width: 200px;
+    }
+    .unleash{
+        color: #534C64;
+        font-size: 20px;
+        font-weight: 700;
+         
+    }
+    .video-container{
+       margin: 0 30px;
+       margin-top: 80px;
+    }
+    .video-content{
+        justify-content: center;
+        align-items: center;
     }
     .nav2 li{
         padding-bottom: 20px;
@@ -202,9 +219,17 @@ background-clip: text;
 }
 
 @media screen and (min-width: 576px) and (max-width:992px) {
-    .nav2 ul,.nav-container,.gamer-container{
+    .nav2 ul,.nav-container,.gamer-container,.video-content{
         flex-direction: column;
     }
+    .video-container{
+        margin: 0 70px;
+        margin-top: 80px;
+     }
+     .video-content{
+         justify-content: center;
+         align-items: center;
+     }
     .nav2 li{
         padding-bottom: 20px;
     }
