@@ -5,3 +5,108 @@ font-family: 'Lato', sans-serif;
 font-family: 'Open Sans', sans-serif;
 font-family: 'Work Sans', sans-serif;
 }
+.btn-primary{
+    border-radius: 48px;
+background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+border: none;
+padding: 21px 40px;
+}
+.btn-secondary{
+    border-radius: 48px;
+background: #4EC5F7;
+padding: 21px 40px;
+border: none;
+}
+
+/*Text Types*/
+
+.text-type-600{
+color: #0B0223;
+font-size: 38px;
+font-weight: 600;
+}
+.text-type-800{
+font-size: 60px;
+font-weight: 800;
+}
+.text-type-500{
+color: #534C64;
+font-size: 20px;
+font-weight: 500;
+text-transform: lowercase;
+}
+
+/*Header*/
+header{
+    margin: 0 100px;
+}
+.btn-icon{
+width: 30px;
+height: 24px;
+padding-left: 10px;
+}
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav1 ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav1 li{
+  margin-right: 20px; 
+  list-style: none; 
+}
+.nav2 ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.nav2 li{
+    list-style: none;
+    margin-right: 20px;
+}
+.nav2 a{
+    text-decoration: none;
+}
+.nav-btn{
+    border-radius: 8px;
+background: rgba(11, 2, 35, 0.10);
+border: none;
+padding: 10px 15px;
+}
+
+/*Goat Container*/
+.goat-container{
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.goat-text{
+background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+margin-top: -20px;
+
+}
+.first-goat{
+ padding-bottom: 150px;
+ padding-left: 70px;
+}
+.first-goat h2,h3,ul,button{
+    margin-bottom: 20px;
+}
+.second-goat{
+    
+}
+.second-goat img{
+    max-width: 500px;
+    height: 100%;
+} 
+/*Responsive styles*/
