@@ -168,23 +168,53 @@ background-clip: text;
 .play-container{
     display: flex;
     justify-content: space-between;
-    align-items: center;
     margin: 0 100px;
     margin-top: 50px;
 }
 .play-content{
     text-align: right;
     max-width: 320px;
-    margin-left: 80px;
+    margin-left: 30px;
+    padding-top: 200px;
 }
 .image-one{
     max-width: 500px;
+    margin-left: 130px;
+}
+.image-two{
+    position: relative;
+    bottom: 230px;
+}
+.image-two img{
+    max-width: 250px;
 }
 /*Responsive styles*/
 
 @media screen and (max-width: 576px) {
-    .nav2 ul,.nav-container,.gamer-container,.video-content{
+    .nav2 ul,.nav-container,.gamer-container,.video-content,.play-container{
         flex-direction: column;
+    }
+    .play-container{
+        margin: 0 30px;
+        justify-content: center;
+        align-items: center;
+    }
+    .play-content{
+        text-align: center;
+        max-width: 320px;
+        padding-top: 50px;
+    }
+    .image-two{
+        position: relative;
+        bottom: 100px;
+    }
+    .image-one{
+      max-width: 300px;
+       margin-left: 50px;
+       padding-top: 50px;
+    }
+    .image-two img{
+        max-width: 130px;
     }
     .nav-btn{
         min-width: 200px;
@@ -203,6 +233,15 @@ background-clip: text;
         justify-content: center;
         align-items: center;
     }
+    .video-description{
+        font-size: 14px;
+        max-width: 300px;
+    }
+    .video img{
+        max-width: 300px;
+        border-radius: 16px;
+    }
+    
     .nav2 li{
         padding-bottom: 20px;
     }
@@ -237,7 +276,7 @@ background-clip: text;
 }
 
 @media screen and (min-width: 576px) and (max-width:992px) {
-    .nav2 ul,.nav-container,.gamer-container,.video-content{
+    .nav2 ul,.nav-container,.gamer-container,.video-content,.play-container{
         flex-direction: column;
     }
     .video-container{
@@ -248,6 +287,29 @@ background-clip: text;
          justify-content: center;
          align-items: center;
      }
+
+     .play-container{
+        margin: 0 30px;
+        justify-content: center;
+        align-items: center;
+    }
+    .play-content{
+        text-align: center;
+        max-width: 320px;
+        padding-top: 50px;
+    }
+    .image-two{
+        position: relative;
+        bottom: 100px;
+    }
+    .image-one{
+      max-width: 300px;
+       margin-left: 50px;
+       padding-top: 50px;
+    }
+    .image-two img{
+        max-width: 130px;
+    }
     .nav2 li{
         padding-bottom: 20px;
     }
