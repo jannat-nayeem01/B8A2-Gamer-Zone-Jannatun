@@ -17,6 +17,11 @@ background: #4EC5F7;
 padding: 21px 40px;
 border: none;
 }
+.style-icons{
+    height: 20px;
+    width:20px;
+    margin-right: 5px;
+}
 
 /*Text Types*/
 
@@ -111,6 +116,10 @@ margin-top: -20px;
 .first-goat{
  padding-bottom: 150px;
  padding-left: 30px;
+}
+.first-goat ul li{
+    list-style: none;
+    margin-left: -30px;
 }
 .first-goat h2,h3,ul,button{
     margin-bottom: 20px;
