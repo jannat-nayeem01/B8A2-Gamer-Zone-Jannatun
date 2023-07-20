@@ -6,20 +6,42 @@
     <title>Document</title>
     <style>
 
-        .container{
+        .video{
             position: absolute;
-            
+        }
+        .overlay{
+            position: absolute;
+            top:0;
+            left:0;
+            right:0;
+            bottom:0;
+            opacity: 0;
+            transition: opacity 0.4s ease-in-out;
+            background: black;
+        }
+        .content{
+            position: absolute;
+            top:50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            text-align: center;
+            color:darkmagenta;
+        }
+        .video:hover .overlay{
+            opacity: 0.8;
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <img src="images/pngwing 4.png" alt="">
+    <div class="video">
+        <img src="images/Rectangle 7.png" alt="" class="video-img">
+        <p class="video-description text-type-400">Breaking game records like OG</p>
         <div class="overlay">
             <div class="content">
-                <h3><img src="images/tiktok.png"></h3>
-                <p>Hello</p>
+                <img src="images/play-button 1.svg">
+            <p class="watch-now-text">Watch Now</p>
             </div>
+            
         </div>
     </div>
 </body>

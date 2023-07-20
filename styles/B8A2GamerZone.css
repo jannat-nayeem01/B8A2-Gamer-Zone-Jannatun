@@ -174,16 +174,17 @@ background-clip: text;
 .video-description{
     max-width: 240px;
 }
-.hide{
-  
-}
-.watch-now img{
+
+/* Overlay Styles*/
+
+
+/*.watch-now img{
     position: relative;
     bottom: 230px;
     left: 80px; 
     
 }
-
+*/
 .watch-now-text{
     position: relative;
     bottom: 230px;
